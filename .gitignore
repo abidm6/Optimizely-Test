@@ -1,0 +1,12 @@
+.idea
+__pycache__/
+*.py[cod]
+pages/__pycache__/
+testcases/__pycache__/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/

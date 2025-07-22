@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "required": ["token", "type", "id", "email", "fullName", "role"],
+  "properties": {
+    "token": { "type": "string" },
+    "type": { "type": "string", "enum": ["Bearer"] },
+    "id": { "type": "integer" },
+    "email": { "type": "string", "format": "email" },
+    "fullName": { "type": "string" },
+    "role": { "type": "string", "enum": ["ROLE_USER"] }
+  },
+  "additionalProperties": false
+}
